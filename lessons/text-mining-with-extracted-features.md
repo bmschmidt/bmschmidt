@@ -1177,11 +1177,10 @@ It is possible to sync individual files by specifying a full file path. Files ar
 
 ```bash
 rsync -azv data.analytics.hathitrust.org::features/listing/htrc-ef-all-files.txt .
-
 ```
 
 Finally, it is possible to download many files from a list. To try, we've put together lists for public-domain [fiction](http://data.analytics.hathitrust.org/genre/fiction_paths.txt), [drama](http://data.analytics.hathitrust.org/genre/drama_paths.txt), and [poetry](http://data.analytics.hathitrust.org/genre/poetry_paths.txt) (Underwood 2014). For example:
 
 ```bash
-rsync -azv --files-from=fiction_paths.txt data.analytics.hathitrust.org::features/ .
+rsync -av --files-from=fiction_paths.txt data.analytics.hathitrust.org::features/ .
 ```
