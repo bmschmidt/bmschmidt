@@ -20,7 +20,7 @@ layout: lesson
 
 # Lesson Goals
 
-In this lesson, you will learn how to create a web map based on that data.  By the end of this lesson, you will be able to:
+In this lesson, you will learn how to create a web map based on tabular data.  By the end of this lesson, you will be able to:
 * Manipulate tabular data programmatically to extract geonames and create location-based data
 * Convert tabular data into a meaningful geographic data structure
 * Understand and apply the basic concepts of web mapping to design your own web map
