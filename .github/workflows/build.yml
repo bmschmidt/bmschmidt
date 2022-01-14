@@ -1,5 +1,5 @@
 # This is the name of the workflow that will show up in Github Actions Tab
-name: build_programming_historian
+name: pages-build-deployment
 
 # This is where we specify when to automatically run our action. In this case we want to run it on pull_requests and specific triggers. You can read more about these event triggers in the Github Docs https://docs.github.com/en/actions/reference/events-that-trigger-workflows
 on:
